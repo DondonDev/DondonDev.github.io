@@ -46,7 +46,7 @@ section {
 }
 
 .homebg-skill {
-    background-color: rgba(255, 68, 0, 0.5);
+    background-color: rgba(255, 68, 0, 0.8);
     border-radius: 50px;
     width: auto;
     height: auto;
@@ -71,9 +71,25 @@ section {
 #blogsection {
     background-color: #ffffff;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #contactsection {
     background-color: #ff4500;
     height: 100vh;
 }
+
+.button {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
