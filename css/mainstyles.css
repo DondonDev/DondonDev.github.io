@@ -11,25 +11,69 @@ html {
 
 section {
     width: 100%;
-    height: 100vh;
+    height: auto;
 }
+
+/* Homepage section */
 
 #homesection {
     background-color: #15202b;
+    height: 100vh;
+    background-image: url("../images/bg_home_blur_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homebg-text {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.homebg-skillholder {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.homebg-skill {
+    background-color: rgba(255, 68, 0, 0.5);
+    border-radius: 50px;
+    width: auto;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    color: white;
 }
 
 #aboutsection {
     background-color: #ffffff;
+    height: 200vh;
 }
 
 #portfoliosection {
     background-color: #15202b;
+    height: 300vh;
 }
 
 #blogsection {
     background-color: #ffffff;
+    height: 100vh;
 }
 
 #contactsection {
     background-color: #ff4500;
+    height: 100vh;
 }
