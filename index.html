@@ -1,13 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <title>DondonDev</title>
 
-        <link rel="icon" type="image/x-icon" href="favicon.ico">
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DondonDev</title>
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/mainstyles.css">
+    <link rel="stylesheet" href="css/mainnavstyles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <div class="navcontainer">
+        <div class="mainnav" id="mymainnav">
+
+            <div class="myLogo">
+                <img src="favicon.ico" alt="icon">
+                <H1>&nbsp;&nbsp;&nbsp;DondonDev</H1>
+            </div>
+    
+            <a href="javascript:void(0);" class="icon" onclick="navmenuicon()">
+                <i class="fa fa-bars"></i>
+            </a>
+    
+            <a href="#homesection" class="active" onclick="navmenuicon()">Home</a>
+            <a href="#aboutsection" onclick="navmenuicon()">About</a>
+            <a href="#portfoliosection" onclick="navmenuicon()">Porfolio</a>
+            <a href="#blogsection" onclick="navmenuicon()">Blog</a>
+            <a href="#contactsection" onclick="navmenuicon()">Contact</a>
+    
+        </div>
+    </div>
+
+    <section id="homesection"></section>
+    <section id="aboutsection"></section>
+    <section id="portfoliosection"></section>
+    <section id="blogsection"></section>
+    <section id="contactsection"></section>
+
+    <script src="js/main.js"></script>
+</body>
+
 </html>
