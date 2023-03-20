@@ -8,7 +8,7 @@ function navmenuicon() {
     }
 }
 
-/*highlight navigation on scroll */
+/*highlight navigation when scrolling*/
 const sections = document.querySelectorAll("section[id]");
 window.addEventListener("scroll", navHighlighter);
 function navHighlighter() {

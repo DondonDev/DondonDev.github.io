@@ -66,6 +66,17 @@ section {
 #aboutsection {
     background-color: #ffffff;
     height: 200vh;
+    padding: 20px;
+    display: flex;
+    align-items:first baseline;
+    justify-content: left;
+}
+
+.profilepicholder {
+    background-color: #ffffff;
+    width: 220px;
+    height: 300px;
+    border: solid orangered;
 }
 
 #portfoliosection {
@@ -97,4 +108,21 @@ button {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 16px;
+  }
+
+  @media screen and (max-width: 700px) {
+    .profilepicholder { 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #aboutsection { 
+    display:block;
+    align-items:center;
+    justify-content: center;
+    }
+
+    .myname {
+        font-size: 26px;
+      }
   }
